@@ -13,7 +13,7 @@ addr={'vol1': '0040', 'cur1': '0041', 'pow1': '0042', 'ene1001': '0043', 'ene100
 data_values={}
 
 # 首先连接influxdb，需要提前创建好数据库
-client = InfluxDBClient(host='10.100.0.112', port=8086, username='devuser', password='gameingo',database='pwcl')
+client = InfluxDBClient(host='10.100.0.112', port=8086, username='devuser', password='password',database='pwcl')
 
 
 
